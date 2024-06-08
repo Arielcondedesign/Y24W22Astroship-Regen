@@ -3,11 +3,11 @@ import { Picture } from "astro:assets";
 import greenBadge from "assets/regeneralia-green-hosting.png";
 ---
 
-<footer class="py-14 bg-green-950 border-t border-green-700" style="margin-top: 3rem;">
+<footer class="py-14 bg-green-950 border-t border-white" style="margin-top: 8rem;">
    <div class="mx-auto w-full max-w-screen-xl px-5">
       <div class="-mt-40 mb-16 grid grid-cols-1 gap-10 rounded-xl bg-green-100 px-6 py-6 md:grid-cols-2 md:px-20 md:py-14">
          <div>
-            <h3 class="max-w-sm text-2xl font-semibold leading-8 text-primary-medium md:pr-6">
+            <h3 class="max-w-sm text-2xl font-semibold leading-8 text-green-950 md:pr-6">
                Recibe actualizaciones periodicas sobre la descarbonización digital.
                <span class="text-primary-strong">Suscríbete</span> 
             </h3>
@@ -20,7 +20,7 @@ import greenBadge from "assets/regeneralia-green-hosting.png";
                      <path d="M22.8027 3.71094H2.19727C0.988184 3.71094 0 4.69478 0 5.9082V19.0918C0 20.3057 0.988818 21.2891 2.19727 21.2891H22.8027C24.0118 21.2891 25 20.3052 25 19.0918V5.9082C25 4.69448 24.0113 3.71094 22.8027 3.71094ZM22.4653 5.17578C21.7549 5.88853 13.4104 14.2603 13.0676 14.6042C12.7812 14.8914 12.2189 14.8916 11.9324 14.6042L2.53467 5.17578H22.4653ZM1.46484 18.8225V6.17749L7.76685 12.5L1.46484 18.8225ZM2.53467 19.8242L8.80098 13.5375L10.895 15.6383C11.7531 16.4992 13.2473 16.4989 14.1051 15.6383L16.1991 13.5375L22.4653 19.8242H2.53467ZM23.5352 18.8225L17.2332 12.5L23.5352 6.17749V18.8225Z" fill="currentColor"></path>
                   </svg>
                </div>
-               <button type="submit" class="text-md items-center justify-center gap-x-2 rounded-lg border border-transparent bg-primary px-8 py-5 font-semibold text-white hover:bg-primary-strong sm:rounded-e-2xl">
+               <button type="submit" class="text-md items-center justify-center gap-x-2 rounded-lg border border-transparent bg-primary px-8 py-5 font-semibold text-white hover:bg-teal-600 sm:rounded-e-2xl">
                Únete
                </button> 
             </div>
@@ -76,7 +76,19 @@ import greenBadge from "assets/regeneralia-green-hosting.png";
          </div>
       </div>
       <div class="mt-16 flex flex-col gap-2 border-t border-white border-opacity-20 py-10 text-center md:flex-row md:justify-between md:text-start">
-         <p class="font-light text-white opacity-75">
+         
+ <div class="mt-14 pt-8 px-5 border-t border-green-300">
+<a href="https://www.thegreenwebfoundation.org/" target="_blank" rel="noopener">  
+<Picture
+      src={greenBadge}
+      alt="Acreditación de que esta web está alojada en un hosting alimentado con energías renovables"
+      widths={[165, 185, 200]}
+      sizes="(max-width: 200px) 10vw, 192px"
+      loading="eager"
+      format="avif"
+    /> </a></p>   
+</div>
+<p class="font-light text-white opacity-75">
             Copyright ©️ 2024 Regneralia. All rights reserved.
          </p>
          <p class="font-light text-white opacity-75">
