@@ -3,41 +3,86 @@ import { Picture } from "astro:assets";
 import greenBadge from "assets/regeneralia-green-hosting.png";
 ---
 
-<footer class="py-14 bg-neutral-50 border-t border-green-700" style="margin-top: 3rem;">
-   <div class="max-w-screen-xl mx-auto px-5">
-      <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-         <div class="sm:col-span-2 md:col-span-3 lg:col-span-2">
-            <a href="/" class="text-lg flex items-center"><span class="font-bold text-green-950">Regeneralia</span></a>
-            <div class="flex gap-3 mt-4 items-center">
-               <a href="https://linkedin.com/in/arielconde" target="_blank" rel="noopener noreferrer" class="bg-green-50 hover:bg-teal-200 rounded w-6 h-6 inline-flex items-center justify-center text-green-950">
-                  <!-- LinkedIn icon code -->
-               </a>
-               <a href="https://api.whatsapp.com/send/?phone=34698977236&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="bg-green-50 hover:bg-teal-200 rounded w-6 h-6 inline-flex items-center justify-center text-green-950">
-                  <!-- WhatsApp icon code -->
-               </a>
+<footer class="mt-16 bg-primary-strong pt-24">
+   <div class="mx-auto w-full max-w-screen-xl px-5">
+      <div class="-mt-40 mb-16 grid grid-cols-1 gap-10 rounded-xl bg-primary-soft px-6 py-6 md:grid-cols-2 md:px-20 md:py-14">
+         <div>
+            <h3 class="max-w-sm text-2xl font-semibold leading-8 text-primary-medium md:pr-6">
+               Recibe actualizaciones periodicas sobre la descarbonización digital."
+               <span class="text-primary-strong">Suscríbete</span> 
+            </h3>
+         </div>
+         <form>
+            <div class="relative flex flex-col gap-5 rounded-2xl shadow-sm sm:flex-row sm:gap-0">
+               <input type="email" name="email" class="block flex-1 rounded-lg border-2 border-white px-6 py-5 ps-14 text-sm focus:z-10 focus:border-primary focus:outline-none sm:rounded-s-2xl" placeholder="Correo electrónico"> 
+               <div class="pointer-events-none absolute start-0 top-5 z-20 flex items-center ps-5 opacity-60 sm:inset-y-0">
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="text-primary" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M22.8027 3.71094H2.19727C0.988184 3.71094 0 4.69478 0 5.9082V19.0918C0 20.3057 0.988818 21.2891 2.19727 21.2891H22.8027C24.0118 21.2891 25 20.3052 25 19.0918V5.9082C25 4.69448 24.0113 3.71094 22.8027 3.71094ZM22.4653 5.17578C21.7549 5.88853 13.4104 14.2603 13.0676 14.6042C12.7812 14.8914 12.2189 14.8916 11.9324 14.6042L2.53467 5.17578H22.4653ZM1.46484 18.8225V6.17749L7.76685 12.5L1.46484 18.8225ZM2.53467 19.8242L8.80098 13.5375L10.895 15.6383C11.7531 16.4992 13.2473 16.4989 14.1051 15.6383L16.1991 13.5375L22.4653 19.8242H2.53467ZM23.5352 18.8225L17.2332 12.5L23.5352 6.17749V18.8225Z" fill="currentColor"></path>
+                  </svg>
+               </div>
+               <button type="submit" class="text-md items-center justify-center gap-x-2 rounded-lg border border-transparent bg-primary px-8 py-5 font-semibold text-white hover:bg-primary-strong sm:rounded-e-2xl">
+               Únete
+               </button> 
             </div>
+         </form>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-10">
+         <div>
+            <h2 class="mb-4 text-4xl font-semibold text-white opacity-75">Regeneralia</h2>
          </div>
          <div>
-            <div class="flex flex-col mt-3"> <a href="/index" class="font-medium text-sm text-green-800 hover:text-teal-200">Sostenibilidad Digital</a></div>
-            <div class="flex flex-col mt-3"> <a href="/servicios" class="font-medium text-sm text-green-800 hover:text-teal-200">Servicios</a></div>
-            <div class="flex flex-col mt-3"> <a href="/conectate" class="font-medium text-sm text-green-800 hover:text-teal-200">Conectate</a></div>
+            <ul class="leading-10">
+               <li> <a href="/index" class="text-lg font-light text-white opacity-75 transition hover:opacity-100">
+                  Sostenibilidad digita
+                  </a> 
+               </li>
+               <li> <a href="/servicios" class="text-lg font-light text-white opacity-75 transition hover:opacity-100">
+                  Servicios
+                  </a> 
+               </li>
+               <li> <a href="/conectate" class="text-lg font-light text-white opacity-75 transition hover:opacity-100">
+                  Conectate
+                  </a> 
+               </li>
+            </ul>
+         </div>
+         <div>
+           <ul class="leading-10">
+               <li> <a href="https://www.linkedin.com/in/arielconde/" class="text-lg font-light text-white opacity-75 transition hover:opacity-100">
+                  LinkedIn
+                  </a> 
+               </li>
+               <li> <a href="https://wa.me/34698977236" class="text-lg font-light text-white opacity-75 transition hover:opacity-100">
+                  WhatsApp
+                  </a> 
+               </li>
+            </ul> 
+         </div>
+         <div>
+            <ul class="leading-10">
+               <li> <a href="/politica-de-privacidad" class="text-md font-light text-white opacity-75 transition hover:opacity-100">
+                  Politica de privacidad
+                  </a> 
+               </li>
+               <li> <a href="/aviso-legal" class="text-md font-light text-white opacity-75 transition hover:opacity-100">
+                  Aviso legal
+                  </a> 
+               </li>
+                <li> <a href="/politica-de-cookies" class="text-md font-light text-white opacity-75 transition hover:opacity-100">
+                  Politica de cookies
+                  </a> 
+               </li>
+            </ul>
          </div>
       </div>
-   </div>
-   <div class="mt-14 pt-8 px-5 border-t border-green-300">
-      <a href="https://www.thegreenwebfoundation.org/" target="_blank" rel="noopener">
-         <!-- Green hosting badge code -->
-      </a>
-   </div>
-   <div class="mt-14 pt-8 px-5 border-t border-neutral-200">
-      <div class="max-w-screen-xl mx-auto px-5">
-         <p class="text-center text-sm text-slate-600 [text-wrap:balance]">
-            Copyright © 2024 Regeneralia. Todos los derechos reservados.
+      <div class="mt-16 flex flex-col gap-2 border-t border-white border-opacity-20 py-10 text-center md:flex-row md:justify-between md:text-start">
+         <p class="font-light text-white opacity-75">
+            Copyright ©️ 2024 Regneralia. All rights reserved.
          </p>
-         <p class="text-center text-xs text-slate-600 mt-2">
-            <a href="/politica-de-privacidad" class="hover:text-teal-500">Politica de privacidad</a> | 
-            <a href="/aviso-legal" class="hover:text-teal-500">Aviso legal</a> | 
-            <a href="/politica-de-cookies" class="hover:text-teal-500">Politica de cookies</a>
+         <p class="font-light text-white opacity-75">
+            Made with <a href="https://astro.build/" target="_blank" rel="noopener noreferrer">
+            Astro
+            </a> 
          </p>
       </div>
    </div>
