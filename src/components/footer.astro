@@ -2,13 +2,13 @@
 import { Picture } from "astro:assets";
 import greenBadge from "assets/regeneralia-green-hosting.png";
 ---
+
 <footer class="py-14 bg-teal-950 border-t border-white" style="margin-top: 8rem;">
    <div class="mx-auto w-full max-w-screen-xl px-5">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-10">
          <div>
             <h2 class="mb-4 text-xl font-semibold text-white opacity-75 hover:green-400"><a href="/index">
-               Regeneralia</a>
-            </h2>
+                  Regeneralia</a></h2>
          </div>
          <div>
             <ul class="leading-10">
@@ -27,7 +27,7 @@ import greenBadge from "assets/regeneralia-green-hosting.png";
             </ul>
          </div>
          <div>
-            <ul class="leading-10">
+           <ul class="leading-10">
                <li> <a href="https://www.linkedin.com/in/arielconde/" class="text-sm font-light text-white opacity-75 transition hover:opacity-100">
                   LinkedIn
                   </a> 
@@ -36,7 +36,7 @@ import greenBadge from "assets/regeneralia-green-hosting.png";
                   WhatsApp
                   </a> 
                </li>
-            </ul>
+            </ul> 
          </div>
          <div>
             <ul class="leading-10">
@@ -48,12 +48,34 @@ import greenBadge from "assets/regeneralia-green-hosting.png";
                   Aviso legal
                   </a> 
                </li>
-               <li> <a href="/politica-de-cookies" class="text-sm font-light text-white opacity-75 transition hover:opacity-100">
+                <li> <a href="/politica-de-cookies" class="text-sm font-light text-white opacity-75 transition hover:opacity-100">
                   Politica de cookies
                   </a> 
                </li>
             </ul>
          </div>
+      </div>
+      <div class="mt-16 flex flex-col gap-2 border-t border-white border-opacity-20 py-10 text-center md:flex-row md:justify-between md:text-start">
+         
+ <div class="mt-14 pt-8 px-5 border-t border-green-300">
+<a href="https://www.thegreenwebfoundation.org/" target="_blank" rel="noopener">  
+<Picture
+      src={greenBadge}
+      alt="Acreditación de que esta web está alojada en un hosting alimentado con energías renovables"
+      widths={[165, 185, 200]}
+      sizes="(max-width: 200px) 10vw, 192px"
+      loading="eager"
+      format="avif"
+    /> </a></p>   
+</div>
+<p class="font-light text-white opacity-75">
+            Copyright ©️ 2024 Regneralia. All rights reserved.
+         </p>
+         <p class="font-light text-white opacity-75">
+            Made with <a href="https://astro.build/" target="_blank" rel="noopener noreferrer">
+            Astro
+            </a> 
+         </p>
       </div>
    </div>
 </footer>
