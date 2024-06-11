@@ -1,4 +1,3 @@
-
 ---
 import { Picture } from "astro:assets";
 import { Picture } from "astro:assets";
@@ -58,9 +57,10 @@ import greenBadge from "assets/regeneralia-green-hosting.png";
             </ul>
          </div>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5 border-t border-white" border-opacity-20 >
-         <div class="leading-5" style="margin-top:1,5rem">
-            <a href="/conectate" target="_blank" rel="noopener">  
+     <div class="mx-auto w-full max-w-screen-xl px-5">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-10">
+         <div>
+             <a href="/conectate" target="_blank" rel="noopener">  
 <Picture
       src={regeneraliaBadge}
       alt="En esta acreditacíón Regeneralia certifica una huella de carbono digital A+"
@@ -70,8 +70,8 @@ import greenBadge from "assets/regeneralia-green-hosting.png";
       format="avif"
     /> </a>
          </div>
-         <div class="leading-5" style="margin-top:1,5rem">
-             <a href="https://www.thegreenwebfoundation.org/" target="_blank" rel="noopener">  
+         <div>
+            <a href="https://www.thegreenwebfoundation.org/" target="_blank" rel="noopener">  
 <Picture
       src={greenBadge}
       alt="Acreditación de que esta web está alojada en un hosting alimentado con energías renovables"
@@ -81,7 +81,7 @@ import greenBadge from "assets/regeneralia-green-hosting.png";
       format="avif"
     /> </a>
          </div>
-         </div>
+      </div>
      <div class="mt-16 flex flex-col gap-2 border-t border-white border-opacity-20 py-10 text-center md:flex-row md:justify-between md:text-start">
 <p class="text-xs font-light text-green-100 hover:green-400">
             Copyright ©️ 2024 Regneralia. Todos los derechos reservados.
