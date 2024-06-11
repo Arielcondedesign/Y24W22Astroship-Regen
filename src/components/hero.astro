@@ -5,46 +5,44 @@ import Link from "@components/ui/link.astro";
 import Button from "./ui/button.astro";
 import { Icon } from "astro-icon/components";
 ---
-
 <main
-  class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
-  <div class="py-6 md:order-1 hidden md:block">
-    <Picture
+   class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
+   <div class="py-6 md:order-1 hidden md:block">
+      <Picture
       src={heroImage}
       alt="Ilustración de @pablostanley representando la transformación sostenible de productos digitales en Regenerlia"
       widths={[200, 400, 600]}
       sizes="(max-width: 800px) 100vw, 620px"
       loading="eager"
       format="avif"
-    />
-  </div>
-  <div>
-    <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-  Less CO2 on the Internet, More biocapacity
-    </h1>
-    <p class="text-lg mt-4 text-slate-600 max-w-xl">
-En el mundo digital actual, pequeñas acciones generan crecimientos exponenciales. Regeneralia aborda el impacto ambiental del CO2 digital (3,7% de las emisiones globales). Apoyamos a organizaciones comprometidas con un impacto positivo en sociedad y planeta, desde optimización de procesos hasta regeneración con árboles <div class="mt-6 flex flex-col sm:flex-row gap-3">
- 
-
-<Link
-        href="https://sustainablewebdesign.org/estimating-digital-emissions/"
-        target="_blank"
-        style="outline"
-        class="flex gap-1 items-center justify-center"
-        rel="noopener">
-        <Icon class="text-black w-5 h-5" name="bx:bx-bar-chart-square" />
+      />
+   </div>
+   <div>
+      <h1
+         class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
+         Less CO2 on the Internet, More biocapacity
+      </h1>
+      <p class="text-lg mt-4 text-slate-600 max-w-xl">
+         En la era digital, cada pequeña acción tiene un impacto significativo. Regeneralia se enfoca en reducir el impacto ambiental del CO2 digital (3,7% de las emisiones globales). Nuestro compromiso es apoyar a organizaciones que buscan generar un impacto positivo en la sociedad y el planeta. Descubre cómo podemos progresar juntos
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+         <Link
+            href="https://sustainablewebdesign.org/estimating-digital-emissions/"
+            target="_blank"
+            style="outline"
+            class="flex gap-1 items-center justify-center"
+            rel="noopener">
+         <Icon class="text-black w-5 h-5" name="bx:bx-bar-chart-square" />
          Consultar documentación
-      </Link>
-      <Link
-        size="lg"
-        rel="noopener"
-        href="/servicios"
-        class="flex gap-1 items-center justify-center"
-        target="_blank">
-        <Icon class="text-white w-4 h-4" name="bx:bxs-tree" />
+         </Link>
+         <Link
+            size="lg"
+            rel="noopener"
+            href="/servicios"
+            class="flex gap-1 items-center justify-center"
+            target="_blank">
+         <Icon class="text-white w-4 h-4" name="bx:bxs-tree" />
          Opciones de descarbonización
-      </Link>      
-    </div>
-  </div>
+         </Link>      
+      </div>
+   </div>
 </main>
