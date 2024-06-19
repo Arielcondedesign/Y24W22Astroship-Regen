@@ -21,15 +21,17 @@ import Button from "./ui/button.astro";
          Indique su nombre de contacto.
       </div>
    </div>
-   <div class="mb-5">
-      <input
-         type="text"
-         placeholder="Pagina web"
+  <div class="mb-5">
+      <label for="email_address" class="sr-only">Email Address</label><input
+         id="email_address"
+         type="email"
+         placeholder="Correo electrónico*"
+         name="email"
+         required
          class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
-         name="website"
          />
-      <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-         Ponga el link de su pagina web.
+      <div class="empty-feedback text-red-400 text-sm mt-1">
+         Indique su dirección de correo electrónico.
       </div>
    </div>
     <div class="mb-5">
@@ -63,22 +65,6 @@ import Button from "./ui/button.astro";
          />
       <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
          ¿Podría facilitarnos su teléfono en caso de que desee que le llamemos?
-      </div>
-   </div>
-   <div class="mb-5">
-      <label for="email_address" class="sr-only">Email Address</label><input
-         id="email_address"
-         type="email"
-         placeholder="Correo electrónico*"
-         name="email"
-         required
-         class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
-         />
-      <div class="empty-feedback text-red-400 text-sm mt-1">
-         Indique su dirección de correo electrónico.
-      </div>
-      <div class="invalid-feedback text-red-400 text-sm mt-1">
-         Indique una dirección de correo electrónico válida.
       </div>
    </div>
    <div class="mb-3">
