@@ -44,16 +44,15 @@ import Button from "./ui/button.astro";
       </div>
    </div>
 <div class="mb-5">
-   <label for="services">Choose a service:</label>
-   <select name="services" id="services" class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100">
-      <option value="a">Servicio auditoría web integral</option>
-      <option value="b">Subscripción: Mantenimiento web</option>
-      <option value="c">Subscripción: Diseño UX/UI</option>
-      <option value="d">Subscripción: Desarollo web</option>
-   </select>
-   <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-      Por favor, selecciona un servicio.
-   </div>
+   <div>Seleciona los servicios en los que estás interesado</div>
+<input type="checkbox" id="servicioA" name="servicioA" value="auditoria">
+  <label for="servicioA">Servicio auditoría web integral</label><br>
+  <input type="checkbox" id="servicioB" name="servicioB" value="mantenimiento">
+  <label for="servicioB"> Subscripción: Mantenimiento web</label><br>
+  <input type="checkbox" id="servicioC" name="servicioC" value="diseño">
+  <label for="servicioC">Subscripción: Diseño UX/UI</label>
+  <input type="checkbox" id="servicioD" name="servicioD" value="desarollo">
+  <label for="servicioD">Subscripción: Desarollo web</label>
 </div>
    <div class="mb-5">
       <input
