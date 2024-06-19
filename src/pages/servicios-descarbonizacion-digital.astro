@@ -6,46 +6,44 @@ import PricingCard from "@components/pricing.astro";
 
 const pricing = [
   {
-    price: "Gratis",
-    name: "Diagnostico web",
-    popular: true,
-    features: [
-    "Atención personalizada",
-    "Descubre qué nota te asigna Google",
-    "Identificamos en qué puedes mejorar",
-    "Consumo energético del código fuente",
-    "Comprobación de alojamiento web verde",  
-    ],
-    button: {
-      text: "Reservar",
-      link: "https://doodle.com/bp/regeneralia/diagnostico-web",
-    },
-  },  
-{
     price: "650 €",
-    name: "Auditoria web integral",
-    popular: false,
+    name: "Servicio auditoría web integral",
+    popular: true,
     features: [
     "Listado priorizado de mejoras a implementar por áreas",
     "Certificado de calificación energética sostenible en la web",
-    "Consejos sostenibildiad digital aplicados a tu negocio",  
-    "Personaliza tu plan de compensación de CO2",
+    "Consejos sostenibildiad digital aplicados a tu negocio",
+    "Personaliza tu plan de compensación de CO2", 
     ],
     button: {
       text: "Saber más",
       link: "/hablemos-del-triple-impacto",
     },
-  },
-  {
+  },  
+{
     price: "275 €",
-    name: "Mantenimiento web WP",
+    name: "Subscripción mensual: Mantenimiento web WP",
     popular: false,
     features: [
     "Optimización en los motores de busqueda",
-    "Refuerzo seguridad",
+    "Manten tu Wordpress actualziado y seguro",
     "Evaluación de la sostenibilidad de proveedores de alojamiento web",  
-    "Monitorización del impacto ambiental a lo largo del tiempo",
     "Plan basico de compensación de Co2",
+    ],
+    button: {
+      text: "Comenzar",
+      link: "/hablemos-del-triple-impacto",
+    },
+  },
+  {
+    price: "995 €",
+    name: "Subscripción mensual: Diseño UX/UI",
+    popular: false,
+    features: [
+    "Avergiua que inquietudes tienen tus usuarios",
+    "Incrementa la notoriedad de tu marca",
+    "Optimización del recorrido del usuario",  
+    "Icremento de la conversión",
     ],
     button: {
       text: "Comenzar",
@@ -78,7 +76,7 @@ const pricing = [
     Explora nuestra gama de planes de colaboración diseñados para impulsar el impacto positivo en tu organización.</Fragment>
     </Sectionhead>
 
-    <div class="grid md:grid-cols-4 gap-8 mx-auto max-w-screen-lg mt-12">
+    <div class="grid md:grid-cols-4 gap-2 mx-auto max-w-screen-lg mt-12">
       {pricing.map((item) => <PricingCard plan={item} />)}
     </div>
   </Container>
