@@ -24,20 +24,31 @@ import Button from "./ui/button.astro";
   <div class="mb-5">
     <input
       type="text"
-      placeholder="Pagina web"
+      placeholder="Pagina web corporativa"
       class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
       name="website"
     />
     <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-      Ponga el link de su pagina web.
+      Ponga el link de la empresa donde trabaja.
     </div>
+  <div class="mb-5">
+    <input
+      type="number"
+      placeholder="Número de trabajadores"
+      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+      name="trabajadores"
+    />
+    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+      ¿Cuantos trabajadores tiene esta empresa?
+    </div>
+  </div>
   </div>
     <div class="mb-5">
     <input
       type="tel"
       placeholder="Número de teléfono"
       class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
-      name="website"
+      name="phone"
     />
     <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
       ¿Podría facilitarnos su teléfono en caso de que desee que le llamemos?
