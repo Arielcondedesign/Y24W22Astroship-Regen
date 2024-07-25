@@ -1,7 +1,7 @@
 ---
 draft: false
-title: " ¿Se puede ser neutro en carbono en la era digital?"
-snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
+title: " Hacia un Futuro Digital Sostenible: La clave de la responsabilidad compartida"
+snippet: "Descubre cómo el crecimiento de Internet ha transformado nuestra forma de vida, pero también ha generado un considerable impacto ambiental. En este artículo, exploramos la evolución de la cooperación científica desde 1919 y cómo la tecnología ha cambiado nuestras interacciones. A pesar de que solo el 20% de la energía utilizada en 2020 provenía de fuentes renovables, existen soluciones, como proveedores de hosting sostenibles, que pueden ayudar a reducir nuestra huella digital. ¡Conoce cómo Regenralia está trabajando por un futuro más verde!"
 image: {
     src: "https://images.pexels.com/photos/2473183/pexels-photo-2473183.jpeg?fit=crop&w=430&h=240",
     alt: "data structures & algorithms"
