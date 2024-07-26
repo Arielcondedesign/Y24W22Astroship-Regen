@@ -6,7 +6,7 @@ image: {
     src: "https://images.pexels.com/photos/2473183/pexels-photo-2473183.jpeg?fit=crop&w=430&h=240",
     alt: "data structures & algorithms"
 }
-publishDate: "2024-07-26 13:22"
+publishDate: "2024-07-26 11:11"
 category: "Regeneración digital"
 author: "Ariel Conde"
 tags: [sostenibilidad, simbiosis empresarial, transformación digital]
