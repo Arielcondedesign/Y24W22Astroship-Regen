@@ -1,7 +1,7 @@
 ---
 draft: false
 title: " Cómo Internet ha transformado nuestras vidas"
-snippet: "🌐✨ Descubre cómo el crecimiento de Internet ha transformado nuestras vidas y su impacto ambiental. A través de una anécdota histórica, apostamos por la cooperación para un progreso sostenible. ¡Conoce cómo Regenralia trabaja por un futuro más verde! 🌱 #Sostenibilidad #Regenralia"
+snippet: "🌐✨ Descubre cómo el crecimiento de Internet ha transformado nuestras vidas y su impacto ambiental. A través de una anécdota histórica, apostamos por la cooperación para un progreso sostenible. ¡Conoce cómo Regenralia trabaja por un futuro más verde! 🌱"
 image: {
     src: "https://images.pexels.com/photos/2473183/pexels-photo-2473183.jpeg?fit=crop&w=430&h=240",
     alt: "data structures & algorithms"
@@ -9,7 +9,7 @@ image: {
 publishDate: "2024-07-26 13:13"
 category: "Regeneración digital"
 author: "Ariel Conde"
-tags: [sostenibilidad, simbiosis empresarial, transformación digital,]
+tags: [sostenibilidad, simbiosis empresarial, transformación digital]
 ---
 
 Cuando era pequeño, pasaba horas jugando con piezas de Lego. Me encantaba crear cosas distintas con los recursos disponibles, como naves espaciales, coches de carreras o casas. Aunque no hemos conseguido hacer que los coches vuelen, el conocimiento humano ha crecido exponencialmente en muchos campos, especialmente en ciencia y tecnología, gracias a la investigación y el acceso a la información. Mucho de ese progreso se lo debemos a Internet.
