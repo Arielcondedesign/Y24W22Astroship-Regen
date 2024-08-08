@@ -24,7 +24,7 @@ Un hito importante en la astronomía fue el trabajo del astrónomo inglés Arthu
 
 Hoy en día, Internet ha crecido hasta convertirse en una entidad impresionante. Arriba podemos ver el primer mapa de Internet realizado en 2005, y abajo la última imagen más reciente tomada en 2023. Sin embargo, su impacto ambiental es considerable. En 2018, se estimaba que Internet iba a ser el cuarto consumidor de energía del mundo[1]. El problema es que solo el 20% de la energía utilizada en 2020 provenía de fuentes renovables.
 
-![Mapa de internet con fecha de 2023-09-28](/src/assets/attempt_1_run_20230928.2200.coords_dark_withlabels.jpg "Imagen más actualizada del alcance de internet") *Mapa de Internet." Opte Project. Autor [The Opte Project](https://www.opte.org/). Licencia: CC BY 4.0.*
+![Mapa de internet con fecha de 2023-09-28](assets/attempt_1_run_20230928.2200.coords_dark_withlabels.jpg "Imagen más actualizada del alcance de internet") *Mapa de Internet." Opte Project. Autor [The Opte Project](https://www.opte.org/). Licencia: CC BY 4.0.*
 
 Afortunadamente, existen proveedores de hosting en Internet que dedican sus esfuerzos a potenciar energías 100% renovables. En la web de [Green Web Foundation](https://www.thegreenwebfoundation.org/ "Verificador de páginas web alojadas en servidores verdes"), puedes averiguar si la página web de tu empresa está alojada en un servidor que no potencia el cambio climático, y también tiene un directorio por países.
 
